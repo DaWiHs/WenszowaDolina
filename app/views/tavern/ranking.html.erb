@@ -1,3 +1,19 @@
-<table>
-  <%= render @top_characters %>
+<table id="ranking">
+  <caption>
+    TOP 20 POSTACI
+  </caption>
+  <thead> 
+    <th >Postac</th>
+    <th>Lvl</th>   
+    <th>STR</th>
+    <th>DEX</th>
+    <th>STA</th>
+    <th>INI</th>
+    <th>Klasa postaci</th>
+  </thead>
+  <tbody>
+    <%= render @top_characters %>
+  </tbody>  
 </table>
+
+

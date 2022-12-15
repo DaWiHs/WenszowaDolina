@@ -1,0 +1,27 @@
+#ranking {
+    counter-reset: row-num;
+    margin: 0 auto;
+    background-color: brown;
+    color:black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+#ranking tbody tr {
+    counter-increment: row-num;
+}
+#ranking tbody tr td:first-child::before {
+      content: counter(row-num) ". ";
+}
+#ranking td {
+    border: 1px solid;
+}
+#ranking caption {
+    font-size:2vmax ;
+    background-color: brown;
+    border: 1px solid black;
+}
+#ranking tr:hover {
+    background-color: rgb(194, 88, 88);
+}
