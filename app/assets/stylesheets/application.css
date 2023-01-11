@@ -67,6 +67,24 @@ body {
   align-items: center;
 }
 
+.sginedout_links {
+
+}
+
+.signedout_links a {
+  display: inline-block;
+  background-color: #343A40;
+  padding: 1.2rem 1.6rem;
+  margin-left: 1.2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.signedout_links a:hover {
+  background-color: #242525;
+}
+
 .dropbtn {
   background-color: #343A40;
   color: #E9ECEF;
@@ -283,3 +301,16 @@ body {
  #characters_list {
   list-style: none;
  }
+
+ #characters_list a {
+  color: white;
+  display: block;
+  padding: 1.2rem 1.6rem;
+  text-align: center;
+  background-color: #343A40;
+  text-decoration: none;
+ }
+
+ #characters_list a:hover {
+  background-color: #4a4a66;
+}
