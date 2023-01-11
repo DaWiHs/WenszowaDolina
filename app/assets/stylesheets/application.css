@@ -503,3 +503,58 @@ body {
 #form-main-container .field em {
   font-size: 1.6rem;
 }
+
+#form-main-container .field label {
+  font-size: 2rem;
+  
+}
+
+#form-main-container .field input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  padding-left: 1.2rem;
+}
+
+#form-main-container .field input:focus {
+  outline: none;
+}
+
+.checkbox {
+  margin: 2rem 0;
+  font-size: 1.4rem;
+}
+
+.checkbox label:hover {
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 4rem;
+}
+
+.actions input {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: .8rem;
+  font-size: 2rem;
+  border: none;
+
+}
+
+.actions input:hover {
+  cursor: pointer;
+  background-color: #d8d6d6;
+  border: none;
+}
+
+.user_links {
+  text-align: center;
+
+}
+
+.user_links a{
+  font-size: 1.7rem;
+  /* text-decoration: none; */
+  color: rgb(211, 211, 211);
+}
